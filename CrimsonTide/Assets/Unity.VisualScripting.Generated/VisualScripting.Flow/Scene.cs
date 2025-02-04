@@ -21,11 +21,11 @@ public class Scene : MonoBehaviour
 
     public void Game1()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("KirraLockhartScene1");
     }
 
     public void StartScene()
     {
-        SceneManager.LoadScene("Start");
+        SceneManager.LoadScene("Olivia - StartScene");
     }
 }
