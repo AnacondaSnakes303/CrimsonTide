@@ -24,6 +24,7 @@ namespace YkinikY
         void Update()
         {
             if (canMove) MovimentUpdate();
+            /*
             if (playerCameraFollow != null)
             {
                 if (transform.position.x > 0)
@@ -43,6 +44,7 @@ namespace YkinikY
                     playerCameraFollow.DontFollowY();
                 }
             }
+            */
         }
         public void GameOver()
         {
