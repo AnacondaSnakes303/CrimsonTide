@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Olivia - GameScene.unity
     guid: f1f8e1ae4d9db2546a4a11e296e319ce
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/KirraLockhartScene1.unity
     guid: f5deb2d9463c55e45b43dccda9a55998
+  - enabled: 0
+    path: Assets/Scenes/Lowther Scene.unity
+    guid: dd4c52a364587184ca5d0cd3f046a1b3
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -8,10 +8,10 @@ public class Scene : MonoBehaviour
         Application.Quit();
     }
 
-    public void Game1() => SceneManager.LoadScene("Lowther Scene");
+    public void Game1() => SceneManager.LoadScene(1);
 
     public void StartScene()
     {
-        SceneManager.LoadScene("Olivia - StartScene");
+        SceneManager.LoadScene(0);
     }
 }
