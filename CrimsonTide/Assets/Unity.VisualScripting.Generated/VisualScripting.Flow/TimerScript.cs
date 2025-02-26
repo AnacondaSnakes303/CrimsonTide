@@ -13,11 +13,7 @@ public class TimerScript : MonoBehaviour
     public TMP_Text timerText;
     public bool isPaused = false;
     private object Timer;
-    public TMP_Text EndingText;
-    public Button RestartButton;
-    public Button QuitButton;
-    public SpriteRenderer ScreenCover;
-    public Button PauseButton;
+  
 
     private void Start()
     {
@@ -48,18 +44,9 @@ public class TimerScript : MonoBehaviour
     }
 
     void GameOver()
-    {
-        //PauseButton.enabled = false;
-        //ScreenCover.enabled = true;
-        //EndingText.enabled = !EndingText.enabled;
-        //Wait();
-        //RestartButton.enabled = true;
-        //QuitButton.enabled = true;  
-        SceneManager.LoadScene(0);
+    { 
+        SceneManager.LoadScene(3);
 
     }
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(10);
-    }
+  
 }
