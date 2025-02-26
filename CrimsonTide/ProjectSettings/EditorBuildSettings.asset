@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Lowther Scene.unity
     guid: dd4c52a364587184ca5d0cd3f046a1b3
+  - enabled: 1
+    path: Assets/Scenes/Olivia - Winning.unity
+    guid: ec6c01c965449bb49b7ff7bac16c023f
+  - enabled: 1
+    path: Assets/Scenes/Olivia - Losing.unity
+    guid: 9e85a7758813a8940bad6dbd23f5c6df
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
