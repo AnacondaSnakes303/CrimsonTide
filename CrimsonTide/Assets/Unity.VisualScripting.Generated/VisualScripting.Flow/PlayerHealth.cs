@@ -1,27 +1,31 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHealth = 100;
-    private int currentHealth;
+    public float maxHealth = 100f;
+    public float currentHealth;
+    public Slider healthBar;
 
-    void Start()
+    private void Start()
     {
         currentHealth = maxHealth;
+        UpdateHealthBar();
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damageAmount)
     {
-        currentHealth -= damage;
+        currentHealth -= damageAmount;
         if (currentHealth <= 0)
         {
-            Die();
+            SceneManager.LoadScene(4);
         }
+        UpdateHealthBar();
     }
 
-    void Die()
+    void UpdateHealthBar()
     {
-        //Death message TBD
-        Debug.Log("Player has died!");
+        healthBar.value = currentHealth / maxHealth;
     }
 }
