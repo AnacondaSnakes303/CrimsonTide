@@ -19,7 +19,7 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damageAmount;
         if (currentHealth <= 0)
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(5);
         }
         UpdateHealthBar();
     }

@@ -45,7 +45,7 @@ public class TimerScript : MonoBehaviour
 
     void GameOver()
     { 
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
 
     }
   

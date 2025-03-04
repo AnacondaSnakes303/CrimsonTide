@@ -8,7 +8,7 @@ public class Scene : MonoBehaviour
         Application.Quit();
     }
 
-    public void Game1() => SceneManager.LoadScene(1);
+    public void Game1() => SceneManager.LoadScene(2);
 
     public void StartScene()
     {
@@ -17,6 +17,6 @@ public class Scene : MonoBehaviour
 
     public void RestartScene()
     {
-        SceneManager.LoadScene(1); 
+        SceneManager.LoadScene(2); 
     }
 }
