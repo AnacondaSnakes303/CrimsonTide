@@ -4,6 +4,8 @@ using System.Collections;
 public class UpDownPlayerMovement : MonoBehaviour
 {
     public float speed;
+    public Collision2D collision;
+    private Transform Player;
 
     private void Update()
     {
@@ -24,4 +26,5 @@ public class UpDownPlayerMovement : MonoBehaviour
             transform.Translate(-Vector2.up * speed);
         }
     }
+    
 }

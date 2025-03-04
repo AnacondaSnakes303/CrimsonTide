@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PipesForCrimsonTideSheet-Sheet-Sheet-Sheet_0: -6657408619175929054
+      PipesForCrimsonTideSheet-Sheet-Sheet-Sheet_1: -4338527404620642962
+      PipesForCrimsonTideSheet-Sheet-Sheet-Sheet_2: -7109572616799093242
+      PipesForCrimsonTideSheet-Sheet-Sheet-Sheet_3: -3257798833951516798
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

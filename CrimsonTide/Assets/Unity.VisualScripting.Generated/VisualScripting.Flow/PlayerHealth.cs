@@ -28,4 +28,6 @@ public class PlayerHealth : MonoBehaviour
     {
         healthBar.value = currentHealth / maxHealth;
     }
+
+
 }
