@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      puzzlemaker_0: -2685742509525055136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
