@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 
 public class UpDownPlayerMovement : MonoBehaviour
@@ -8,6 +9,9 @@ public class UpDownPlayerMovement : MonoBehaviour
     float verticalInput;
     public Collision2D collision;
     private Transform Player;
+    public Button PauseButton;
+    bool isPaused = false;
+    public GameObject player;
 
     [SerializeField] 
     float speed;
@@ -19,6 +23,25 @@ public class UpDownPlayerMovement : MonoBehaviour
 
         verticalInput = Input.GetAxis("Vertical");
         transform.Translate(Vector2.up * verticalInput * speed);
+
+        
     }
-    
+    /*
+    public void pauseGame()
+    {
+        if (isPaused)
+        {
+            player.transform.localScale = Vector3.one;
+            Time.timeScale = 1;
+            isPaused = false;
+        }
+        else
+        {
+            player.transform.localScale = Vector3.zero;
+            Time.timeScale = 0;
+            isPaused = true;
+        }
+    }
+*/
+
 }
