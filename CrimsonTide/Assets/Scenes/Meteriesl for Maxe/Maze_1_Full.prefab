@@ -41,6 +41,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2425279255937422021}
     m_Modifications:
+    - target: {fileID: 1361604811961734973, guid: dade9878cccaa104ba7c6faf8bfe9c0b, type: 3}
+      propertyPath: m_Size.y
+      value: 0.26270828
+      objectReference: {fileID: 0}
+    - target: {fileID: 1361604811961734973, guid: dade9878cccaa104ba7c6faf8bfe9c0b, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.0036459118
+      objectReference: {fileID: 0}
     - target: {fileID: 2390581159764782623, guid: dade9878cccaa104ba7c6faf8bfe9c0b, type: 3}
       propertyPath: m_Name
       value: Maze_1
@@ -84,6 +92,18 @@ PrefabInstance:
     - target: {fileID: 5518401389614727498, guid: dade9878cccaa104ba7c6faf8bfe9c0b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582613072702025549, guid: dade9878cccaa104ba7c6faf8bfe9c0b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.20340908
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582613072702025549, guid: dade9878cccaa104ba7c6faf8bfe9c0b, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.123295456
+      objectReference: {fileID: 0}
+    - target: {fileID: 6582613072702025549, guid: dade9878cccaa104ba7c6faf8bfe9c0b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.035863712
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
