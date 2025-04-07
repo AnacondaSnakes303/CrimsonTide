@@ -719,7 +719,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1086565750602455772, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
       propertyPath: speed
-      value: 0.05
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1086565750602455772, guid: 415ec8bdb68eca34fa6d3fdb098ddd8e, type: 3}
       propertyPath: player
@@ -877,7 +877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7a61bd34e4767541ac1da3380bb097b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
 --- !u!114 &455125263
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1857,7 +1857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7a61bd34e4767541ac1da3380bb097b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
 --- !u!114 &1454260437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11809,7 +11809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7a61bd34e4767541ac1da3380bb097b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
 --- !u!114 &1725794996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12106,7 +12106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7a61bd34e4767541ac1da3380bb097b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
 --- !u!114 &2030487883
 MonoBehaviour:
   m_ObjectHideFlags: 0
