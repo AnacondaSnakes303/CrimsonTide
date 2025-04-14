@@ -24,7 +24,7 @@ public class WarmColdFeedback : MonoBehaviour
 
         if (currentDistance < previousDistance)
         {
-            compass.text = "Warmer...";
+            compass.text = "Warmer..";
         }
         else if (currentDistance > previousDistance)
         {
