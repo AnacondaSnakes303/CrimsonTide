@@ -3,8 +3,8 @@ using UnityEngine;
 public class EnemyAttack : MonoBehaviour
 {
     //Range & Damage TBD
-    public float attackRange = 0.5f;
-    public float attackDamage = 0.2f;
+    public float attackRange = 1f;
+    public float attackDamage = 1f;
     private Transform Player;
     
 
