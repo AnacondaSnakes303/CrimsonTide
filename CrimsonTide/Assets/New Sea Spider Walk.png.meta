@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 9ff668c263d58964d8871c39eb728c2c
+guid: e8c82d7fdf7b462488f49e7bea2e9dba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4444253041755348636
-    second: CT Sea Spider Walk (1)_0
+      213: 6629720738626562682
+    second: New Sea Spider Walk_0
   - first:
-      213: -6280087142674609237
-    second: CT Sea Spider Walk (1)_1
+      213: 1673447729481783427
+    second: New Sea Spider Walk_1
   - first:
-      213: 255830599760232685
-    second: CT Sea Spider Walk (1)_2
+      213: 4766849482069047479
+    second: New Sea Spider Walk_2
   - first:
-      213: 2723797160553962675
-    second: CT Sea Spider Walk (1)_3
+      213: 2953680724118202286
+    second: New Sea Spider Walk_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,89 +109,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CT Sea Spider Walk (1)_0
+      name: New Sea Spider Walk_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 240
-        width: 80
-        height: 80
+        x: 12
+        y: 1611
+        width: 470
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e9586721e3ff46045ad08cd2aed95494
-      internalID: 437162547
+      spriteID: a7a60e1d2ef710c50800000000000000
+      internalID: 6629720738626562682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CT Sea Spider Walk (1)_1
+      name: New Sea Spider Walk_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 160
-        width: 80
-        height: 80
+        x: 12
+        y: 1091
+        width: 470
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e34369db11c17b84a8291d3d5d751961
-      internalID: 446458264
+      spriteID: 38812f9f7d7493710800000000000000
+      internalID: 1673447729481783427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CT Sea Spider Walk (1)_2
+      name: New Sea Spider Walk_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 80
-        width: 80
-        height: 80
+        x: 12
+        y: 571
+        width: 470
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b6109faaf41a4ce489c1318c13084ee8
-      internalID: -1963625367
+      spriteID: 7b8fa7c1950472240800000000000000
+      internalID: 4766849482069047479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CT Sea Spider Walk (1)_3
+      name: New Sea Spider Walk_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 80
-        height: 80
+        x: 12
+        y: 51
+        width: 470
+        height: 366
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 426f1549409d823489754fa489258266
-      internalID: 1314862064
+      spriteID: ea7ebf428f49df820800000000000000
+      internalID: 2953680724118202286
       vertices: []
       indices: 
       edges: []
@@ -200,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0e7b3b65c9881544ca0de41d39b7bfff
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CT Sea Spider Walk (1)_0: 437162547
-      CT Sea Spider Walk (1)_1: 446458264
-      CT Sea Spider Walk (1)_2: -1963625367
-      CT Sea Spider Walk (1)_3: 1314862064
+      New Sea Spider Walk_0: 6629720738626562682
+      New Sea Spider Walk_1: 1673447729481783427
+      New Sea Spider Walk_2: 4766849482069047479
+      New Sea Spider Walk_3: 2953680724118202286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
